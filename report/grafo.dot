@@ -1,0 +1,205 @@
+digraph G {
+        label = "Matriz dispersa"
+        node [shape = box]
+        subgraph H {
+        root [label = "Inicio", group="1"]
+        edge [dir="both"]
+
+        row7[label=7,group="1"]
+row7->row13;
+row7->node7_90;
+{rank=same;row7;node7_90}
+row13[label=13,group="1"]
+row13->row23;
+row13->node13_60;
+{rank=same;row13;node13_60}
+row23[label=23,group="1"]
+row23->row25;
+row23->node23_63;
+{rank=same;row23;node23_63}
+row25[label=25,group="1"]
+row25->row28;
+row25->node25_53;
+{rank=same;row25;node25_53}
+row28[label=28,group="1"]
+row28->row36;
+row28->node28_76;
+{rank=same;row28;node28_76}
+row36[label=36,group="1"]
+row36->row41;
+row36->node36_9;
+{rank=same;row36;node36_9}
+row41[label=41,group="1"]
+row41->row47;
+row41->node41_26;
+{rank=same;row41;node41_26}
+row47[label=47,group="1"]
+row47->row49;
+row47->node47_87;
+{rank=same;row47;node47_87}
+row49[label=49,group="1"]
+row49->row53;
+row49->node49_97;
+{rank=same;row49;node49_97}
+row53[label=53,group="1"]
+row53->row54;
+row53->node53_58;
+{rank=same;row53;node53_58}
+row54[label=54,group="1"]
+row54->row58;
+row54->node54_48;
+{rank=same;row54;node54_48}
+row58[label=58,group="1"]
+row58->row60;
+row58->node58_93;
+{rank=same;row58;node58_93}
+row60[label=60,group="1"]
+row60->row64;
+row60->node60_24;
+{rank=same;row60;node60_24}
+row64[label=64,group="1"]
+row64->row65;
+row64->node64_59;
+node64_59->node64_91;
+{rank=same;row64;node64_59;node64_91}
+row65[label=65,group="1"]
+row65->row70;
+row65->node65_53;
+{rank=same;row65;node65_53}
+row70[label=70,group="1"]
+row70->row73;
+row70->node70_95;
+{rank=same;row70;node70_95}
+row73[label=73,group="1"]
+row73->row77;
+row73->node73_72;
+{rank=same;row73;node73_72}
+row77[label=77,group="1"]
+row77->row80;
+row77->node77_65;
+{rank=same;row77;node77_65}
+row80[label=80,group="1"]
+row80->row87;
+row80->node80_68;
+{rank=same;row80;node80_68}
+row87[label=87,group="1"]
+row87->row90;
+row87->node87_57;
+{rank=same;row87;node87_57}
+row90[label=90,group="1"]
+row90->row93;
+row90->node90_0;
+{rank=same;row90;node90_0}
+row93[label=93,group="1"]
+row93->row96;
+row93->node93_88;
+{rank=same;row93;node93_88}
+row96[label=96,group="1"]
+row96->row98;
+row96->node96_12;
+{rank=same;row96;node96_12}
+row98[label=98,group="1"]
+row98->node98_50;
+{rank=same;row98;node98_50}
+column0[label = 0,group = "2"]
+column0->node90_0;
+node90_0[label="90,0",group="2"]
+column0->column9;
+column9[label = 9,group = "3"]
+column9->node36_9;
+node36_9[label="36,9",group="3"]
+column9->column12;
+column12[label = 12,group = "4"]
+column12->node96_12;
+node96_12[label="96,12",group="4"]
+column12->column24;
+column24[label = 24,group = "5"]
+column24->node60_24;
+node60_24[label="60,24",group="5"]
+column24->column26;
+column26[label = 26,group = "6"]
+column26->node41_26;
+node41_26[label="41,26",group="6"]
+column26->column48;
+column48[label = 48,group = "7"]
+column48->node54_48;
+node54_48[label="54,48",group="7"]
+column48->column50;
+column50[label = 50,group = "8"]
+column50->node98_50;
+node98_50[label="98,50",group="8"]
+column50->column53;
+column53[label = 53,group = "9"]
+column53->node25_53;
+node25_53[label="25,53",group="9"]
+node25_53->node65_53;
+node65_53[label="65,53",group="9"]
+column53->column57;
+column57[label = 57,group = "10"]
+column57->node87_57;
+node87_57[label="87,57",group="10"]
+column57->column58;
+column58[label = 58,group = "11"]
+column58->node53_58;
+node53_58[label="53,58",group="11"]
+column58->column59;
+column59[label = 59,group = "12"]
+column59->node64_59;
+node64_59[label="64,59",group="12"]
+column59->column60;
+column60[label = 60,group = "13"]
+column60->node13_60;
+node13_60[label="13,60",group="13"]
+column60->column63;
+column63[label = 63,group = "14"]
+column63->node23_63;
+node23_63[label="23,63",group="14"]
+column63->column65;
+column65[label = 65,group = "15"]
+column65->node77_65;
+node77_65[label="77,65",group="15"]
+column65->column68;
+column68[label = 68,group = "16"]
+column68->node80_68;
+node80_68[label="80,68",group="16"]
+column68->column72;
+column72[label = 72,group = "17"]
+column72->node73_72;
+node73_72[label="73,72",group="17"]
+column72->column76;
+column76[label = 76,group = "18"]
+column76->node28_76;
+node28_76[label="28,76",group="18"]
+column76->column87;
+column87[label = 87,group = "19"]
+column87->node47_87;
+node47_87[label="47,87",group="19"]
+column87->column88;
+column88[label = 88,group = "20"]
+column88->node93_88;
+node93_88[label="93,88",group="20"]
+column88->column90;
+column90[label = 90,group = "21"]
+column90->node7_90;
+node7_90[label="7,90",group="21"]
+column90->column91;
+column91[label = 91,group = "22"]
+column91->node64_91;
+node64_91[label="64,91",group="22"]
+column91->column93;
+column93[label = 93,group = "23"]
+column93->node58_93;
+node58_93[label="58,93",group="23"]
+column93->column95;
+column95[label = 95,group = "24"]
+column95->node70_95;
+node70_95[label="70,95",group="24"]
+column95->column97;
+column97[label = 97,group = "25"]
+column97->node49_97;
+node49_97[label="49,97",group="25"]
+{rank=same;root;column0;column9;column12;column24;column26;column48;column50;column53;column57;column58;column59;column60;column63;column65;column68;column72;column76;column87;column88;column90;column91;column93;column95;column97}
+root->row7;
+root->column0;
+}
+}
